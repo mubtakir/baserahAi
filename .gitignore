@@ -1,0 +1,22 @@
+# Git repositories المدمجة
+# (تم التعامل معها بواسطة clean_embedded_git، ولكن هذا كإجراء احترازي إضافي)
+**/.git/
+
+# ملفات بايثون المؤقتة
+__pycache__/
+*.py[cod]
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# ملفات البيئة الافتراضية لـ Python
+basira_env/
+*.venv/
+env/
+venv/
+
+# ملفات أخرى قد لا ترغب في رفعها
+*.log
+*.tmp
+*.swp
